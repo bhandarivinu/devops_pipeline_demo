@@ -5,7 +5,7 @@ MAINTAINER Prasanjit Singh <nixgurus@gmail.com>
 COPY docker/wildfly-8.2.0.Final /opt/wildfly
 
 # install example app on wildfy
-COPY docker/wildfly-8.2.0.Final/wildfly-spring-boot-sample-1.0.0.war /opt/wildfly/standalone/deployments/
+COPY docker/wildfly-spring-boot-sample-1.0.0.war /opt/wildfly/standalone/deployments/
 
 RUN java -version
 
