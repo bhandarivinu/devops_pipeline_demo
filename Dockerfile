@@ -1,7 +1,7 @@
 FROM servergurus/ubuntu-jdk8
 MAINTAINER Vinay Bhandari <bhandarivinu@gmail.com>
 
-# setup WildFly 
+# setup WildFly Hi
 COPY docker/wildfly-8.2.0.Final /opt/wildfly
 
 # install example app on wildfy
